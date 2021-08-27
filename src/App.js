@@ -15,9 +15,10 @@ function App() {
     <div className="container p-4">
       <h6>Login</h6>
           { isAuthenticated ? <LogoutButton/> : <LoginButton/> }
-          <Profile/>
+          { isAuthenticated ? <Profile/> : <Links /> }
+          
       <div className="row">
-        <Links />
+      
       </div>
       <ToastContainer />
     </div>
