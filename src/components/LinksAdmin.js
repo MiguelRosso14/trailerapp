@@ -62,18 +62,18 @@ const LinksAdmin = () => {
               <div className="d-flex justify-content-between">
                 <h4>{link.name}</h4>
                 <div>
-                  <i
+                  <a href="#"
                     className="material-icons text-danger"
                     onClick={() => onDeleteLink(link.id)}
                   >
                     close
-                  </i>
-                  <i
+                  </a>
+                  <a href="#"
                     className="material-icons"
                     onClick={() => setCurrentId(link.id)}
                   >
                     create
-                  </i>
+                  </a>
                 </div>
               </div>
               <p>{link.description}</p>
