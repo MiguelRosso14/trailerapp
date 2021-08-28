@@ -1,3 +1,6 @@
+Miguel Rosso 20198607
+Alex Llenas 2019-7833
+Chardinson De la cruz Ventura 2019-8084
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ![](screenshot.png)
